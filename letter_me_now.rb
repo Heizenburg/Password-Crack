@@ -2,7 +2,7 @@ require 'faraday'
 
 class PasswordCracker
   ALPHABET = (('a'..'z').to_a + ('0'..'9').to_a).shuffle
-  SUBJECT = 'password'
+  SUBJECT = 'Password'
 
   def initialize(api)
     @api = api
